@@ -17,7 +17,7 @@ First install [Rust][rust]. There is a guide to installing Rust [here][guide].
 
 ##### On Linux
 
-I keep the install script in my [install][install] repro under [linux/rust.bash][install].
+I keep the install script in my [install][install] repro under [linux/rust.bash][script].
 
 ### Build
 
