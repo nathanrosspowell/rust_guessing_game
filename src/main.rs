@@ -1,6 +1,9 @@
 extern crate rust_guessing_game;
+
 use std::io;
 use std::rand;
+
+use rust_guessing_game::my_funcs;
 
 fn main() {
     println!("Guess the magic number!");
@@ -16,7 +19,7 @@ fn main() {
             }
         };
         println!("Guess = {}", input_uint);
-        match rust_guessing_game::my_funcs::compaire(input_uint, magic_number) {
+        match my_funcs::compaire(input_uint, magic_number) {
             Less    => println!("Guess higher."),
             Greater => println!("Guess lower."),
             Equal   => { 
