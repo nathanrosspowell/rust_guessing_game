@@ -1,4 +1,4 @@
-rust_guessing_game
+`rust_guessing_game`
 ==================
 
 [![Build Status](https://travis-ci.org/nathanrosspowell/rust_guessing_game.svg?branch=master)](https://travis-ci.org/nathanrosspowell/rust_guessing_game)
