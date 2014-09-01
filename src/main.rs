@@ -5,6 +5,7 @@ use std::rand;
 
 use rust_guessing_game::my_funcs;
 
+#[cfg(not(test))]
 fn main() {
     println!("Guess the magic number!");
     let magic_number = ( rand::random::<uint>() % 100u ) + 1u;
