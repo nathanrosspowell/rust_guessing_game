@@ -19,7 +19,6 @@ fn main() {
                 continue;
             }
         };
-        println!("Guess = {}", input_uint);
         match my_funcs::compaire(input_uint, magic_number) {
             Less    => println!("Guess higher."),
             Greater => println!("Guess lower."),
