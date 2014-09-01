@@ -1,8 +1,7 @@
 rust-guessing-game
 ==================
 
-[![Build Status](https://travis-ci.org/nathanrosspowell/rust-guessing-game.svg)](https://travis-ci.org/nathanrosspowell/rust-guessing-game)
-
+[![Build Status](https://travis-ci.org/nathanrosspowell/rust_guessing_game.svg?branch=master)](https://travis-ci.org/nathanrosspowell/rust_guessing_game)
 
 What is it?
 -----------
