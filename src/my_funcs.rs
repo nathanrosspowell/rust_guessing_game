@@ -1,11 +1,13 @@
-pub fn compaire(input: uint, test: uint) -> Ordering {
+use std::cmp::Ordering;
+
+pub fn compare(input: uint, test: uint) -> Ordering {
     if input < test {
-        Less
+        Ordering::Less
     }
     else if input > test {
-        Greater
+        Ordering::Greater
     }
     else {
-        Equal
+        Ordering::Equal
     }
 }
