@@ -2,6 +2,7 @@ extern crate rust_guessing_game;
 
 use std::io;
 use std::rand;
+use std::cmp::Ordering;
 
 use rust_guessing_game::my_funcs;
 
@@ -20,9 +21,9 @@ fn main() {
             }
         };
         match my_funcs::compare(input_uint, magic_number) {
-            Less    => println!("Guess higher."),
-            Greater => println!("Guess lower."),
-            Equal   => { 
+            Ordering::Less    => println!("Guess higher."),
+            Ordering::Greater => println!("Guess lower."),
+            Ordering::Equal   => { 
                 println!("You win!"); 
                 return
             },
