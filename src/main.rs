@@ -2,7 +2,6 @@ extern crate rust_guessing_game;
 
 use std::io;
 use std::rand;
-use std::from_str;
 
 use rust_guessing_game::my_funcs;
 
@@ -12,7 +11,7 @@ fn main() {
     let magic_number = ( rand::random::<uint>() % 100u ) + 1u;
     loop {
         let input = io::stdin().read_line().ok().expect("That was bad input");
-        let input_optoin_uint: Option<uint> = from_str(input.as_slice().trim());
+        let input_optoin_uint: Option<uint> = input.parse();
         let input_uint = match input_optoin_uint {
             Some(num) => num,
             None      => {
