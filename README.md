@@ -30,4 +30,4 @@ Use the command `cargo run` to execute.
 [guide]: http://doc.rust-lang.org/guide.html#installing-rust "Install guide"
 [install]: https://github.com/nathanrosspowell/install "Install scripts"
 [script]: https://github.com/nathanrosspowell/install/blob/master/linux/rust.bash "Rust Linux install"
-[rustlang-guide]: http://doc.rust-lang.org/guide.html#guessing-game "Rust Guide"
+[rustlang-guide]: http://doc.rust-lang.org/book/guessing-game.html "Rust Guessing Game"
