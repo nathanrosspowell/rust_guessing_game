@@ -2,6 +2,7 @@ extern crate rust_guessing_game;
 
 use std::io;
 use std::rand;
+use std::from_str;
 
 use rust_guessing_game::my_funcs;
 
