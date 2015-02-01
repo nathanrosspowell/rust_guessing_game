@@ -1,6 +1,6 @@
 extern crate rust_guessing_game;
 
-use std::io;
+use std::old_io as io;
 use std::rand;
 use std::cmp::Ordering;
 
