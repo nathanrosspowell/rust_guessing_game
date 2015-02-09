@@ -9,7 +9,7 @@ use rust_guessing_game::my_funcs;
 #[cfg(not(test))]
 fn main() {
     println!("Guess the magic number!");
-    let magic_number = ( rand::random::<usize>() % 100u ) + 1u;
+    let magic_number = ( rand::random::<usize>() % 100 ) + 1;
     loop {
         let input = io::stdin().read_line().ok().expect("That was bad input");
         let input_optoin_usize: Option<usize> = input.parse();
