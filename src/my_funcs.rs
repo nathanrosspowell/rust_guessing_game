@@ -1,6 +1,6 @@
 use std::cmp::Ordering;
 
-pub fn compare(input: uint, test: uint) -> Ordering {
+pub fn compare(input: usize, test: usize) -> Ordering {
     if input < test {
         Ordering::Less
     }
