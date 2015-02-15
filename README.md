@@ -6,7 +6,7 @@
 What is it?
 -----------
 
-This is the implementation of the game described in the [Rust Guide][rustlang-guide].
+This is the implementation of the game described in the [Rust Book][rustlang-book].
 
 How to run?
 ------------------
@@ -27,7 +27,7 @@ Use the command `cargo build` to build the project.
 Use the command `cargo run` to execute.
 
 [rust]: http://www.rust-lang.org/ "Rust lang"
-[guide]: http://doc.rust-lang.org/guide.html#installing-rust "Install guide"
+[guide]: http://www.rust-lang.org/install.html "Install guide"
 [install]: https://github.com/nathanrosspowell/install "Install scripts"
 [script]: https://github.com/nathanrosspowell/install/blob/master/linux/rust.bash "Rust Linux install"
-[rustlang-guide]: http://doc.rust-lang.org/book/guessing-game.html "Rust Guessing Game"
+[rustlang-book]: http://doc.rust-lang.org/book/README.html "Rust Guessing Game"
