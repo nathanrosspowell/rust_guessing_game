@@ -3,3 +3,6 @@
 name = "rust_guessing_game"
 version = "0.0.1"
 authors = ["Nathan Ross Powell <nathanrosspowell@gmail.com>"]
+
+[dependencies]
+rand = "*"
